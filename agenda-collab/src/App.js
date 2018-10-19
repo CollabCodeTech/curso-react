@@ -6,7 +6,7 @@ const App = () => (
   <CardCollab
     name="Curso React"
     price="180"
-    description="Curso báscio de React utilizando styled-components ao vivo"
+    description="Curso básico de React utilizando styled-components ao vivo"
   />
 );
 

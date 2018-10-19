@@ -1,0 +1,17 @@
+.button-collab {
+  display: inline-block;
+  background-color: #fff;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #3b86ff;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button-collab.-cancel {
+  background-color: #ccc;
+  color: rgb(122, 122, 122);
+}

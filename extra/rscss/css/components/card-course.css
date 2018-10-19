@@ -1,0 +1,28 @@
+.card-course {
+  font-family: "Open Sans", sans-serif;
+  background-color: #3b86ff;
+  color: #fff;
+  text-align: center;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 58px;
+  padding-bottom: 48px;
+}
+
+.card-course > .title {
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.card-course > .price {
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+.card-course > .description {
+  width: 240px;
+  font-size: 18px;
+  margin: 0 auto 45px;
+}
