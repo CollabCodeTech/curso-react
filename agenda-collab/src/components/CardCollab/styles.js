@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import { center } from "./styles/tools";
+import { center } from "../../styles/tools";
 
-export const Card = styled.article`
+const Card = styled.article`
   background-color: var(--color-first);
   color: var(--color-zero);
   text-align: center;
@@ -11,3 +11,5 @@ export const Card = styled.article`
   width: 370px;
   ${center};
 `;
+
+export default Card;
