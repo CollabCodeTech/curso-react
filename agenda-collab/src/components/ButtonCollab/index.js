@@ -18,7 +18,7 @@ const ButtonCollab = styled.a`
       ? `
         &:hover {
           background-color: var(--color-first);
-          colorzerof;
+          color: var(--color-zero);
           border: 1px solid var(--color-zero);
         }
       `
@@ -28,4 +28,4 @@ const ButtonCollab = styled.a`
       `};
 `;
 
-export default Button;
+export default ButtonCollab;

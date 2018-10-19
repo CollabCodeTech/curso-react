@@ -8,12 +8,15 @@ import ButtonCollab from "../ButtonCollab";
 
 import Card from "./styles";
 
-const CardCollab = () => (
+const CardCollab = props => (
   <Card>
-    <Name>Curso React</Name>
-    <Price>$25</Price>
-    <Description>Professional features for your business to grow.</Description>
-    <ButtonCollab primary>Buy</ButtonCollab>
+    <Name>{props.name}</Name>
+    <Price>
+      <small>c$</small>
+      {props.price}
+    </Price>
+    <Description>{props.description}</Description>
+    <ButtonCollab primary>Comprar</ButtonCollab>
   </Card>
 );
 
